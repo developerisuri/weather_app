@@ -1,0 +1,45 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #2a5298, #1e3c72);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: rgba(255,255,255,0.1);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 350px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background: #ffcb05;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#weatherResult {
+  margin-top: 20px;
+  font-size: 18px;
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
